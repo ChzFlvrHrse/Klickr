@@ -1,10 +1,10 @@
 import os
 
-from flask import Flask, redirect, render_template, request, session
+from flask import Flask, redirect, request
 from flask_cors import CORS
 from flask_login import LoginManager
 from flask_migrate import Migrate
-from flask_wtf.csrf import CSRFProtect, generate_csrf
+from flask_wtf.csrf import generate_csrf
 
 from app.models import comment
 
