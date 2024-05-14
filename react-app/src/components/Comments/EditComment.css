@@ -1,0 +1,81 @@
+.create-comment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.create-comment-container{
+    width: 30rem;
+    height: 25rem;
+    background-color: white;
+}
+
+.create-comment-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.edit-comment-title{
+    padding: 0;
+    margin: 0;
+}
+
+.errorHandlingContainer{
+    display: flex;
+    justify-content: left;
+    margin-right: 30px;
+}
+
+.UlBulletErrorStyling{
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.ErrorPoints{
+    color: red;
+    margin-left: -30px;
+    margin-bottom: 10px;
+}
+
+.edit-comment-box {
+    width: 25rem;
+    height: 10rem;
+    border-radius: .3rem;
+    resize: none;
+}
+
+.done-edit-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.done-edit {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #348fdc;
+    padding: .5rem 1rem;
+    margin-top: .5rem;
+    border-radius: .3rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.done-edit:hover {
+    opacity: .8;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.done-edit:active {
+    transform: scale(.98);
+}
+
+#edit-comment-cancel {
+    background-color: #979ea2;;
+}
